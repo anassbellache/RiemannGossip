@@ -8,7 +8,7 @@ class Rotation:
         
         
         Keyword Arguments:
-            coordinates {[type]} -- [description] (default: {None})
+            coordinates {np.ndarray} -- numpy representation of the rotation matrix (default: {None})
         """
         if coordinates is not None:
             self._coordinates = coordinates
